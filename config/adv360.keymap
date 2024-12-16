@@ -38,21 +38,21 @@
 
         default_layer {
             bindings = <
-&kp CAPSLOCK  &kp N1     &kp N2            &kp N3        &kp N4        &kp N5  &tog 2                                                                        &mo 3           &kp N6  &kp N7            &kp N8             &kp N9             &kp N0                &kp BACKSPACE
-&kp ESC       &kp Q      &kp W             &kp E         &kp R         &kp T   &none                                                                         &kp UP_ARROW    &kp Y   &kp U             &kp I              &kp O              &kp P                 &kp BSLH
-&kp TAB       &kp A      &kp S             &kp D         &kp F         &kp G   &none               &kp LEFT_GUI    &kp HOME        &kp PAGE_UP    &tog 1     &kp DOWN_ARROW  &kp H   &kp J             &kp K              &kp L              &kp SEMI              &kp SQT
-&kp LSHFT     &kp Z      &kp X             &kp C         &kp V         &kp B                                       &kp END         &kp PAGE_DOWN                             &kp N   &kp M             &kp COMMA          &kp DOT            &kp FSLH              &kp RSHFT
-&kp EQUAL     &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI          &mt LEFT_GUI SPACE  &kp LEFT_SHIFT  &kp DELETE      &kp BACKSPACE  &kp ENTER  &lt 1 SPACE             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LG(RIGHT))  &kp LG(LS(UP_ARROW))  &kp MINUS
+&kp ESCAPE  &kp N1     &kp N2            &kp N3        &kp N4        &kp N5  &tog 2                                                                                  &mo 3           &kp N6  &kp N7            &kp N8             &kp N9             &kp N0                &kp BACKSPACE
+&kp ESC     &kp Q      &kp W             &kp E         &kp R         &kp T   &none                                                                                   &kp UP_ARROW    &kp Y   &kp U             &kp I              &kp O              &kp P                 &kp BSLH
+&kp TAB     &kp A      &kp S             &kp D         &kp F         &kp G   &none               &kp LC(LG(UP_ARROW))  &kp HOME        &kp PAGE_UP    &kp LG(LC(F))  &kp DOWN_ARROW  &kp H   &kp J             &kp K              &kp L              &kp SEMI              &kp SQT
+&kp LSHFT   &kp Z      &kp X             &kp C         &kp V         &kp B                                             &kp END         &kp PAGE_DOWN                                 &kp N   &kp M             &kp COMMA          &kp DOT            &kp FSLH              &kp RSHFT
+&kp EQUAL   &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI          &mt LEFT_GUI SPACE  &kp LEFT_SHIFT        &kp DELETE      &kp BACKSPACE  &kp ENTER      &lt 1 SPACE             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LG(RIGHT))  &kp LG(LS(UP_ARROW))  &kp MINUS
             >;
         };
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 2                                      &mo 3         &kp F7        &kp F8      &kp F9        &kp F10     &kp F11        &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none         &trans        &none       &kp UP_ARROW  &none       &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &kp LG(LEFT)  &kp LA(LEFT)  &kp LEFT    &kp DOWN      &kp RIGHT   &kp LA(RIGHT)  &kp LG(RIGHT)
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &none         &none       &trans        &none       &none          &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                      &kp K_PREV  &kp C_PREV    &kp C_NEXT  &kp K_NEXT     &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 2                                      &mo 3                 &kp F7            &kp F8        &kp F9        &kp F10        &kp F11            &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &kp LS(LG(LA(LEFT)))  &kp LS(LG(LEFT))  &kp LG(LEFT)  &kp UP_ARROW  &kp RG(RIGHT)  &kp RS(RG(RIGHT))  &kp LS(LG(LA(RIGHT)))
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &kp LA(LS(LEFT))      &kp LA(LEFT)      &kp LEFT      &kp DOWN      &kp RIGHT      &kp LA(RIGHT)      &kp RA(RS(RIGHT))
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                                &none             &none         &trans        &none          &none              &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                                  &kp K_PREV    &kp C_PREV    &kp C_NEXT     &kp K_NEXT         &trans
             >;
         };
 
