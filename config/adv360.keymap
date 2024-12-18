@@ -48,11 +48,11 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                 &tog 2                                             &mo 3             &kp F7                 &kp F8    &kp F9        &kp F10    &kp F11        &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                 &kp LG(LC(F))                                      &kp LS(LG(LEFT))  &kp LG(LEFT)           &none     &kp UP_ARROW  &none      &kp RG(RIGHT)  &kp LS(LG(RIGHT))
-&trans  &trans  &trans  &trans  &trans  &trans                 &kp LG(TAB)    &trans  &trans      &trans  &trans  &kp LA(LS(LEFT))  &kp LA(LEFT)           &kp LEFT  &kp DOWN      &kp RIGHT  &kp LA(RIGHT)  &kp RA(RS(RIGHT))
-&trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LG(B))))                         &trans      &trans                            &kp RS(RA(RC(RG(N))))  &none     &trans        &none      &none          &trans
-&trans  &trans  &trans  &trans  &trans                         &trans         &trans  &trans      &trans  &trans  &trans                                   &none     &none         &none      &none          &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                 &tog 2                                             &mo 3             &kp F7                 &kp F8    &kp F9        &kp F10                           &kp F11                            &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                 &kp LG(LC(F))                                      &kp LS(LG(LEFT))  &kp LG(LEFT)           &none     &kp UP_ARROW  &none                             &kp RG(RIGHT)                      &kp LS(LG(RIGHT))
+&trans  &trans  &trans  &trans  &trans  &trans                 &kp LG(TAB)    &trans  &trans      &trans  &trans  &kp LA(LS(LEFT))  &kp LA(LEFT)           &kp LEFT  &kp DOWN      &kp RIGHT                         &kp LA(RIGHT)                      &kp RA(RS(RIGHT))
+&trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LG(B))))                         &trans      &trans                            &kp RS(RA(RC(RG(N))))  &none     &trans        &none                             &none                              &trans
+&trans  &trans  &trans  &trans  &trans                         &trans         &trans  &trans      &trans  &trans  &trans                                   &none     &none         &kp LS(LA(LC(LG(LEFT_BRACKET))))  &kp LS(LA(LC(LG(RIGHT_BRACKET))))  &trans
             >;
         };
 
